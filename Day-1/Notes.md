@@ -93,3 +93,37 @@ Text inside the tag → clickable part
 Open in a new tab:
 
 <a href="https://www.example.com" target="_blank">Open in new tab</a>
+
+
+Alright, imagine you have a storybook.
+
+Now, in that storybook:
+
+### “Hyper” means super active — it can jump from one page to another or one story to another just by clicking (like magic!).
+
+### “Text” means the words and information on those pages.
+
+### “Markup” means you decorate or label those words so the computer knows what’s what — for example:
+
+### “This is a heading.”
+
+### “This is a paragraph.”
+### “This is a picture.”
+
+### So, HTML (HyperText Markup Language) is like a special way of writing instructions to tell a web browser how to show your story (the website).
+
+👉 You write normal text, but with tags (like <h1> or <p>) that help the browser understand:
+
+### what’s big text,
+
+### what’s small,
+
+### where the links go,
+
+### where pictures appear.
+
+### If you didn’t use HTML, the browser would just see a mess of words and pictures with no idea how to arrange them.
+
+### So in simple words:
+
+### HTML is the language that teaches computers how to show stories beautifully on the web.
