@@ -10,18 +10,19 @@
         return_type function_name(parameter_list) {
             // function body
         }
-
-int add(int a, int b){
-    return a + b;
-}
-    
-int main(){
-    printf("hello Functions in C");
-    int result = add(5, 10);
-    printf("The sum is: %d\n", result);
-    return 0;
-}
-*/
+        
+        int add(int a, int b){
+            return a + b;
+        }
+        
+        
+        int main(){
+            printf("hello Functions in C");
+            int result = add(5, 10);
+            printf("The sum is: %d\n", result);
+            return 0;
+        }
+        */
 
 
 //! If else condition in C 
@@ -51,27 +52,27 @@ int main() {
 
     return 0;
 }
-    */
+    
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int age = 18;
+int main() {
+    int age = 18;
 
-//     switch (age >= 18) {   // This becomes 1 or 0
-//         case 0:
-//             printf("You cannot Vote\n");
-//             break;
-//         case 1:
-//             printf("You are eligible to vote\n");
-//             break;
-//         default:
-//             printf("Invalid\n");
-//     }
+    switch (age >= 18) {  
+        case 0:
+            printf("You cannot Vote\n");
+            break;
+        case 1:
+            printf("You are eligible to vote\n");
+            break;
+        default:
+            printf("Invalid\n");
+    }
 
-//     return 0;
-// }
-
+    return 0;
+}
+*/
 /*Switch case in C language 
     - Switch case is a control statement that allows a variable to be tested for equality against a list of values.
     - Each value is called a case, and the variable being switched on is checked for each case.
@@ -88,8 +89,8 @@ int main() {
             default:
                 // code to be executed if expression doesn't match any case
         }
-*/
-/*
+
+
 #include <stdio.h>
 
 int main() {
@@ -121,6 +122,30 @@ int main() {
     return 0;
 }
 */
+
+
+
+//for(initialaziion, condition, increament){
+// body
+//}
+
+
+#include <stdio.h>
+
+int main() {
+    int num; 
+    printf("enter ur num: ");
+    scanf("%d", &num);
+    int i = 1;
+
+    while(i <= num){
+        printf("Your number is %d \n", i);
+        i++;
+    }
+
+    return 0;
+}
+
 
 
 

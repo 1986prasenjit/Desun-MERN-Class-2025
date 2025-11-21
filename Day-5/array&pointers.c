@@ -7,16 +7,16 @@
         data_type array_name[array_size];
 */  
     //! Here we are using arr[5] where we can store only 5 elements in an array
-// #include <stdio.h>
-// int main() {
-//     int numbers[5]= {10,20,30,40,50}; // Declare an array of integers with size 5
+#include <stdio.h>
+int main() {
+    int numbers[]= {10,20,30,40,50}; // Declare an array of integers with size 5
 
-//     // Print the elements of the array
-//     for(int i = 0; i < 5; i++) {
-//         printf("Element at index %d: %d\n", i, numbers[i]);
-//     }
-//     return 0;
-// }
+    // Print the elements of the array
+    for(int i = 0; i < 6; i++) {
+        printf("Element at index %d: %d\n", i, numbers[i]);
+    }
+    return 0;
+}
 
  //! Here we are using arr[] where we can store whatever length we want elements in an array
 
@@ -58,6 +58,8 @@ int main(){
  * Demonstrates that numbers[i] == *(p + i)
  * Compile: gcc 02_print_with_pointer.c -o 02_print_with_pointer
  * Run: ./02_print_with_pointer
+ */
+
  #include <stdio.h>
  
  int main(void) {
@@ -81,7 +83,7 @@ int main(){
     
     return 0;
 }
-*/
+
 
 //!03_pointer_arithmetic.c
 /* 03_pointer_arithmetic.c
@@ -108,7 +110,7 @@ int main(){
  * Demonstrates pointer increment p++ and its effects.
  * Compile: gcc 04_increment_pointer.c -o 04_increment_pointer
  * Run: ./04_increment_pointer
- #include <stdio.h>
+ #include <stdio.h> 
  
  int main(void) {
     int arr[] = {3, 6, 9, 12};
