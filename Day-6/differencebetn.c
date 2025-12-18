@@ -10,6 +10,5 @@ int main(){
     bool isEmployed = true;
     std::string name = "John Doe";
     long long population = 7800000000;
-    unsigned int followers = 1500;
     std::cout << "Name: " << name << std::endl;
 }
